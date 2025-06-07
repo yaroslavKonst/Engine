@@ -7,28 +7,28 @@
 
 #include "../Logger/logger.h"
 
-#include "../../../build/Engine/Video/spir-v/ObjectShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/ObjectShader_frag.spv"
-#include "../../../build/Engine/Video/spir-v/ObjectShaderDiscard_frag.spv"
+#include "../../build/Engine/Video/spir-v/ObjectShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/ObjectShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/ObjectShaderDiscard_frag.spv"
 
-#include "../../../build/Engine/Video/spir-v/RectangleShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/RectangleShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/RectangleShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/RectangleShader_frag.spv"
 
-#include "../../../build/Engine/Video/spir-v/SkyboxShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/SkyboxShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/SkyboxShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/SkyboxShader_frag.spv"
 
-#include "../../../build/Engine/Video/spir-v/ShadowShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/ShadowShader_geom.spv"
-#include "../../../build/Engine/Video/spir-v/ShadowShader_frag.spv"
-#include "../../../build/Engine/Video/spir-v/ShadowShaderDiscard_vert.spv"
-#include "../../../build/Engine/Video/spir-v/ShadowShaderDiscard_geom.spv"
-#include "../../../build/Engine/Video/spir-v/ShadowShaderDiscard_frag.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShader_geom.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShaderDiscard_vert.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShaderDiscard_geom.spv"
+#include "../../build/Engine/Video/spir-v/ShadowShaderDiscard_frag.spv"
 
-#include "../../../build/Engine/Video/spir-v/PostprocessingShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/PostprocessingShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/PostprocessingShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/PostprocessingShader_frag.spv"
 
-#include "../../../build/Engine/Video/spir-v/SpriteShader_vert.spv"
-#include "../../../build/Engine/Video/spir-v/SpriteShader_frag.spv"
+#include "../../build/Engine/Video/spir-v/SpriteShader_vert.spv"
+#include "../../build/Engine/Video/spir-v/SpriteShader_frag.spv"
 
 static glm::vec3 VecToGlm(const Math::Vec<3>& vec)
 {
