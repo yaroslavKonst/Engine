@@ -110,6 +110,6 @@ private:
 	int64_t _value;
 };
 
-typedef FPNumber<30> FPNumber;
+typedef FPNumber<30> FixedNumber;
 
 #endif
